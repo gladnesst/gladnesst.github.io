@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>python 环境管理 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="python java环境管理python 虚拟环境虚拟环境——venvPython2 版本创建虚拟环境常使用一个名为 virtualenv 的第三方包。从 Python3.3 以后，标准库就内置了一个名为 venv 的模块，我们可以用它来创建虚拟环境，完全替换 virtualenv。 1python -m venv [新文件夹名]   .venv    ├─pyvenv.cfg    ├─Inc">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python 环境管理">
+<meta property="og:url" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="python java环境管理python 虚拟环境虚拟环境——venvPython2 版本创建虚拟环境常使用一个名为 virtualenv 的第三方包。从 Python3.3 以后，标准库就内置了一个名为 venv 的模块，我们可以用它来创建虚拟环境，完全替换 virtualenv。 1python -m venv [新文件夹名]   .venv    ├─pyvenv.cfg    ├─Inc">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090745676.png">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090834710.png">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090942282.png">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726091046963.png">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726091418351.png">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726093333451.png">
+<meta property="og:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726095231838.png">
+<meta property="article:published_time" content="2024-07-26T01:53:58.000Z">
+<meta property="article:modified_time" content="2024-07-26T01:54:21.289Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090745676.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-python-环境管理" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/" class="article-date">
+  <time class="dt-published" datetime="2024-07-26T01:53:58.000Z" itemprop="datePublished">2024-07-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      python 环境管理
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="python-java环境管理"><a href="#python-java环境管理" class="headerlink" title="python java环境管理"></a>python java环境管理</h1><h2 id="python-虚拟环境"><a href="#python-虚拟环境" class="headerlink" title="python 虚拟环境"></a>python 虚拟环境</h2><h3 id="虚拟环境——venv"><a href="#虚拟环境——venv" class="headerlink" title="虚拟环境——venv"></a>虚拟环境——venv</h3><p><a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=Python2&spm=1001.2101.3001.7020">Python2</a> 版本创建虚拟环境常使用一个名为 virtualenv 的第三方包。从 Python3.3 以后，标准库就内置了一个名为 venv 的模块，我们可以用它来创建虚拟环境，完全替换 virtualenv。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -m venv [新文件夹名]</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>.venv<br>    ├─pyvenv.cfg<br>    ├─Include<br>    ├─Lib<br>    │  └─site-packages<br>    │      ├─pip<br>    │      ├─pip-20.2.3.dist-info<br>    │      ├─pkg_resources<br>    │      ├─setuptools-49.2.1.dist-info<br>    │      ├─easy_install.py<br>    │      └─<strong>pycache</strong><br>    └─Scripts<br>    │  └─activate<br>    │  └─activate.bat<br>    │  └─Activate.ps1<br>    │  └─deactivate.bat<br>    │  └─easy_install-3.9.exe<br>    │  └─easy_install.exe<br>    │  └─pip.exe<br>    │  └─pip3.9.exe<br>    │  └─pip3.exe<br>    │  └─python.exe<br>    │  └─pythonw.exe</p>
+<p>结构树</p>
+<ul>
+<li><p>安装的库在scripts，创建的新的scripts里只有一个pip</p>
+</li>
+<li><p><code>pyvenv.cfg</code> 是一个配置文件，包含三个参数：</p>
+<ul>
+<li><code>home</code>：指向运行命令的 Python 安装目录；</li>
+<li><code>include-system-site-packages</code>：是否使用系统 Python 环境中安装的包。默认是 <code>false</code>，即不使用；</li>
+<li><code>version</code>：Python 版本号。</li>
+</ul>
+</li>
+</ul>
+<p>启动：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd [创建的文件名]\Scripts\activate</span><br></pre></td></tr></table></figure>
+
+<p>退出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deactivate</span><br></pre></td></tr></table></figure>
+
+<h2 id="python-多环境管理"><a href="#python-多环境管理" class="headerlink" title="python 多环境管理"></a>python 多环境管理</h2><h3 id="pyenv"><a href="#pyenv" class="headerlink" title="pyenv"></a>pyenv</h3><p><code>pyenv</code> 是一款轻量级的 Python 版本管理工具，可以在同一台机器上同时安装多个 Python 版本，并且可以根据应用程序或项目的需求进行快速切换。它的主要功能包括版本的安装、卸载、切换和全局默认版本的设置。</p>
+<h5 id="下载安装pyenv"><a href="#下载安装pyenv" class="headerlink" title="下载安装pyenv"></a>下载安装pyenv</h5><p>pyenv是管理python多版本的工具，在使用前需要将系统原来的python环境删除</p>
+<p>添加环境变量</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090745676.png" alt="image-20240726090745676"></p>
+<p>在path添加</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090834710.png" alt="image-20240726090834710"></p>
+<p>添加这两行</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726090942282.png" alt="image-20240726090942282"></p>
+<p>验证：</p>
+<p>cmd &#x3D;&gt;pyenv</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726091046963.png" alt="image-20240726091046963"></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">pyenv install --list <span class="comment"># 列出可安装版本</span></span><br><span class="line">pyenv install &lt;version&gt; <span class="comment"># 安装对应版本</span></span><br><span class="line">pyenv install -v &lt;version&gt; <span class="comment"># 安装对应版本，若发生错误，可以显示详细的错误信息</span></span><br><span class="line">pyenv versions <span class="comment"># 显示当前使用的python版本</span></span><br><span class="line">pyenv <span class="built_in">which</span> python <span class="comment"># 显示当前python安装路径</span></span><br><span class="line">pyenv global &lt;version&gt; <span class="comment"># 设置默认Python版本</span></span><br><span class="line">pyenv <span class="built_in">local</span> &lt;version&gt; <span class="comment"># 当前路径创建一个.python-version, 以后进入这个目录自动切换为该版本</span></span><br><span class="line">pyenv shell &lt;version&gt; <span class="comment"># 当前shell的session中启用某版本，优先级高于global 及 local</span></span><br></pre></td></tr></table></figure>
+
+<p>常用命令</p>
+<hr>
+<p>一系列可安装版本</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726091418351.png" alt="image-20240726091418351"></p>
+<p>安装新版本</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726093333451.png" alt="image-20240726093333451"></p>
+<p>切换版本</p>
+<p>pyenv global [版本号]</p>
+<p><img src="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/image-20240726095231838.png" alt="image-20240726095231838"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/" data-id="clz21uudv0003z4w36m3c7for" data-title="python 环境管理" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2024/07/22/%E5%8F%96%E8%AF%81/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">取证</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">July 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/07/26/python-%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/">python 环境管理</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/22/%E5%8F%96%E8%AF%81/">取证</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/22/%E7%94%B5%E5%AD%90%E5%8F%96%E8%AF%81/">电子取证</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/22/demo/">demo</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/22/post-name/">post_name</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
